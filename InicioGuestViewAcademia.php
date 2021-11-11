@@ -11,7 +11,7 @@
     <?php require 'head.php'; ?>
 </head>
 <body>
-<?php require 'navguest.php'; ?>
+<?php require 'navguestbasic.php'; ?>
 <?php require 'footer.php'; ?>
 </body>
 </html>

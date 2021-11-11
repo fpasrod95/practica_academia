@@ -68,8 +68,8 @@ function validez($errors) {
 
 if (isset($_POST["submit"])) {
 
-  if (!empty($_POST["login"]) && (!preg_match("/[0-9]/", $_POST["name"])) && (strlen($_POST["name"]) < 15)) {
-    $nombre = filtrado($_POST["name"]);
+  if (!empty($_POST["login"]) && (!preg_match("/[0-9]/", $_POST["login"])) && (strlen($_POST["login"]) < 15)) {
+    $nombre = filtrado($_POST["login"]);
   } else {
     $errors["name"] = "El nombre introducido no es válido :(";
   }
@@ -80,41 +80,6 @@ if (isset($_POST["submit"])) {
     $errors["password"] = "Introduzca una contraseña válida (6-10 caracteres) :(";
   }
 
-  if (!empty($_POST["name"]) && (!preg_match("/[0-9]/", $_POST["name"])) && (strlen($_POST["name"]) < 15)) {
-    $nombre = filtrado($_POST["name"]);
-  } else {
-    $errors["name"] = "El nombre introducido no es válido :(";
   }
 
-  if (!empty($_POST["name"]) && (!preg_match("/[0-9]/", $_POST["name"])) && (strlen($_POST["name"]) < 15)) {
-    $nombre = filtrado($_POST["name"]);
-  } else {
-    $errors["name"] = "El nombre introducido no es válido :(";
-  }
-
-  if (!empty($_POST["name"]) && (!preg_match("/[0-9]/", $_POST["name"])) && (strlen($_POST["name"]) < 15)) {
-    $nombre = filtrado($_POST["name"]);
-  } else {
-    $errors["name"] = "El nombre introducido no es válido :(";
-  }
-
-  if (!empty($_POST["name"]) && (!preg_match("/[0-9]/", $_POST["name"])) && (strlen($_POST["name"]) < 15)) {
-    $nombre = filtrado($_POST["name"]);
-  } else {
-    $errors["name"] = "El nombre introducido no es válido :(";
-  }
-
-  if (!empty($_POST["name"]) && (!preg_match("/[0-9]/", $_POST["name"])) && (strlen($_POST["name"]) < 15)) {
-    $nombre = filtrado($_POST["name"]);
-  } else {
-    $errors["name"] = "El nombre introducido no es válido :(";
-  }
-
-  if (!empty($_POST["name"]) && (!preg_match("/[0-9]/", $_POST["name"])) && (strlen($_POST["name"]) < 15)) {
-    $nombre = filtrado($_POST["name"]);
-  } else {
-    $errors["name"] = "El nombre introducido no es válido :(";
-  }
-
-}
-?>
+  ?>

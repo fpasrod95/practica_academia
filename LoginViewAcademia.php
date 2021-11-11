@@ -10,11 +10,13 @@
         <div class="row">
             <div class="col-md-6 form-group " >
                 <input text-align ="center"type="text" name="login" class="form-control" id="login" placeholder="Nombre" required>
+                <?php echo mostrar_error($errors, "login"); ?> 
             </div>
             <br><br>
             <div class="row">
                 <div class="col-md-6 form-group ">
                     <input type="text" class="form-control" name="password" id="password" placeholder="Contraseña" required>
+                    <?php echo mostrar_error($errors, "password"); ?> 
                 </div>
             </div>
 
