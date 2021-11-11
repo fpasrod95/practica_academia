@@ -36,7 +36,6 @@ function recoge($var, $m = ""){
 }
 
 
-
 // Función que muestra el mensaje de error bajo el campo que no ha superado
 // el proceso de validación
 function mostrar_error($errors, $campo) {
@@ -87,11 +86,11 @@ if (isset($_POST["submit"])) {
     }
 
     if (empty($nombre)) {
-        $errors["nombre"] = "El nombre no puede estar vacía";
+        $errors["nombre"] = "El nombre no puede estar vacío";
     }
 
     if (empty($apellidos)) {
-        $errors["apellidos"] = "El nombre no puede estar vacía";
+        $errors["apellidos"] = "Los apellidos no pueden estar vacíos";
      }
 
      if (empty($nif)) {
@@ -99,11 +98,11 @@ if (isset($_POST["submit"])) {
      }
 
      if (empty($direccion)) {
-        $errors["apellidos"] = "El nombre no puede estar vacía";
+        $errors["direccion"] = "La dirección no puede estar vacía";
      }
 
      if (empty($telefono)) {
-        $errors["telefono"] = "El telefono no puede estar vacía";
+        $errors["telefono"] = "El teléfono no puede estar vacío";
      }
     
     if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
