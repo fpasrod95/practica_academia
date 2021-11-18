@@ -42,11 +42,11 @@
     </div>
   </header><!-- End Header -->
 
-<!-- ======= Breadcrumbs ======= -->
+  <!-- ======= Breadcrumbs ======= -->
 <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
-        <h2>Login</h2>
-        <p>Autenticación del usuario/a </p>
+        <h2>BIENVENIDA/O</h2>
+        <p>Se encuentra en la página de la academia Sapere Aude </p>
       </div>
     </div><!-- End Breadcrumbs -->
 

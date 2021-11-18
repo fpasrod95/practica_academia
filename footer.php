@@ -1,5 +1,5 @@
-  <!-- ======= Footer ======= -->
-  <?php include 'head.php' ; ?>
+<!-- ======= Footer ======= -->
+<?php include 'head.php' ; ?>
   <footer id="footer">
 
     <div class="footer-top">

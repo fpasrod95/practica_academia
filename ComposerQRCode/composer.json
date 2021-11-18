@@ -1,0 +1,19 @@
+{
+    "name": "usuario/composer-qr-code",
+    "description": "Prueba de composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Usuario\\ComposerQrCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fpasrod95",
+            "email": "felipepr.95@gmail.com"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^4.4"
+    }
+}

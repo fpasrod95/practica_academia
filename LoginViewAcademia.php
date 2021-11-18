@@ -2,6 +2,16 @@
 <?php require 'navguestbasic.php'; ?>
 <?php require 'ValLoginViewAcademia.php'; ?>
 
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2>Login</h2>
+        <p>Autenticación del usuario/a </p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    
+
 
 
 <div class="col-lg-8 mt-5 mt-lg-0">
