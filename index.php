@@ -1,15 +1,18 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
+<?php
+/**
+ * Inclusión de los archivos que contienen las clases de core
+ * Cuando PHP usa una clase que no encuentra va a llamar a la función anónima definida en el callback
+ * que requiere (incluye) la clase
+ * @return void
+ */
+spl_autoload_register(function ($nombre) {
+   require 'core/' . $nombre . '.php';
+});
 
-<head>
+try {
+   //Lo iniciamos con su método estático main.
+   FrontController::main();
+} catch (\Exception $e) { // Tratamiento último de errors
+   echo "Error general en la app: " . $e->getMessage();
+}
 
-  
-</head>
-
-<body>
-  
-</body>
-
-</html> -->
-
-<?php require 'InicioGuestViewAcademia.php' ; ?>
